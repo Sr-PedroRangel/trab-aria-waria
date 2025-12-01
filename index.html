@@ -8,16 +8,18 @@
 
     <header>     
         <h1>Tech News</h1>     
-            <nav>         
-                <a href="#noticias">Notícias</a>         
-                <a href="#tutoriais">Tutoriais</a>         
-                <a href="#contato">Contato</a>     
+            <nav aria-label="navegação principal">         
+                <ul>
+                    <li><a href="#noticias">Notícias</a> </li>         
+                    <li><a href="#tutoriais">Tutoriais</a></li>         
+                    <li><a href="#contato">Contato</a></li>
+                </ul>     
             </nav> 
         </header> 
     
-    <main>     
-        <h2>Novidades</h2>     
-        <section>         
+    <main>         
+        <section id="noticias" aria-labelledby="mostrar-novidades"> 
+            <h2 id="mostrar-novidades">Novidades</h2>         
             <h3>Navegadores mais rápidos</h3>         
             <p>Comparação entre os principais navegadores.</p>     
         </section>   
@@ -25,14 +27,15 @@
         <article>         
             <h3>Novo framework lançado</h3>         
             <p>Conheça o novo framework que está sendo adotado por grandes empresas.</p>         
-            <button>Ver mais</button>     
+            <button type="button" aria-label="Ver mais sobre este artigo">Ver mais</button>     
         </article> 
     </main> 
-        <aside>     
+
+        <aside aria-label="Dica de segurança">     
             <p>Dica: atualize seus navegadores com frequência.</p>
         </aside> 
             
-            <footer>   <p>2025 Tech News</p> </footer>
+            <footer aria-label="Autor do artigo">   <p>2025 Tech News</p> </footer>
     
 </body>
 </html>
