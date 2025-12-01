@@ -1,0 +1,8 @@
+Olá professor, segue abaixo minha explicação sobre o uso do WAI-ARIA
+O código do enunciado é feio e confuso e após nós usarmos as tags do html para o arrumarmos (header,nav,main,aside,footer), o código ficou arrumado semanticamente, porém ele não é muito funcional com leitores de tela para pessoas portadoras de deficientes, nisso o WAI-ARIA ajuda, pois nos permite "falar" diretamente com o leitor de tela através do código do HTML, podendo ser inseridas rótulos personalizados que serão lidos pelo sistema(ao invés de usar vários h2,h3), sem encher o site de inormações.
+
+
+--------- JUSTIFICATIVA DA ESCOLHA DAS TAGS -----------------------------
+Usei header no começo do código pois achei as informaçoes sendo mais adequadas para um cabeçalho, dentro usei nav para organizar em um menu de navegação e ul para organizar os links.
+
+Depois usei o main e dentro dele coloquei o section e o aside, pois identifiquei que aquelas eram as informações principais da página, usei section para agrupar o conteúdo de destaque do main e aside para separar o segundo conteúdo dentro do main e o fora. Por último usei o footer pois a informação sobre quem fez o artigo é curta e objetiva e não merece uma exposição no meio da página em letras garrafais, portanto achei adequado coloca-la ao final da página
